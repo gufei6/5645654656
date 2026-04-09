@@ -7,7 +7,7 @@ const codeExamples = {
   openai: `from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://api.ocrouter.ai/v1",
+    base_url="ofoxai-api.gufei76.workers.dev",
     api_key="<OCROUTER_API_KEY>"
 )
 
