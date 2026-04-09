@@ -18,7 +18,7 @@ response = client.chat.completions.create(
   anthropic: `import anthropic
 
 client = anthropic.Anthropic(
-    base_url="https://api.ocrouter.ai/v1",
+    base_url="https://ofoxai-api.gufei76.workers.dev/v1",
     api_key="<OCROUTER_API_KEY>"
 )
 
